@@ -1,9 +1,7 @@
-const amount = 69;
+const greetings = require('./nums.js');
+const helloThere = require('./function.js')
 
-if (amount > 10) {
-    console.log("Big ass number");
-} else {
-    console.log("Teeny weeny number");
-}
 
-console.log("Good Shit");
+helloThere("Hello");
+helloThere(greetings.greet1);
+helloThere(greetings.greet2);
